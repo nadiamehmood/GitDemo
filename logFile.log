@@ -1,0 +1,8 @@
+
+2021-03-01 18:53:51,275 :INFO :test_profile :nadia
+2021-03-01 18:53:51,276 :INFO :test_profile :mehmood
+2021-03-01 18:53:51,276 :INFO :test_profile :nadiamehmood66@gmail.com
+2021-03-01 18:53:51,294 :INFO :SeleniumPythonFramework.test_logging :Information statement
+2021-03-01 18:53:51,295 :WARNING :SeleniumPythonFramework.test_logging :Something is in warning mode
+2021-03-01 18:53:51,295 :ERROR :SeleniumPythonFramework.test_logging :A major error happened
+2021-03-01 18:53:51,295 :CRITICAL :SeleniumPythonFramework.test_logging :Critical issue

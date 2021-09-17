@@ -1,0 +1,5 @@
+download 'openpyxl' on systems python
+open cmd and go to 'C:\Users\Southville\AppData\Local\Programs\Python\Python38-32\Scripts'
+run command 'cd path'
+then run command 'pip install openpyxl'
+open project settings and set your interpreter to python level instead of project level.

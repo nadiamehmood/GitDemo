@@ -1,0 +1,17 @@
+1603272612473	geckodriver	INFO	Listening on 127.0.0.1:54258
+1603272615495	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SOUTHV~1\\AppData\\Local\\Temp\\rust_mozprofileemEJit"
+1603272701288	geckodriver	INFO	Listening on 127.0.0.1:54335
+1603272704306	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\SOUTHV~1\\AppData\\Local\\Temp\\rust_mozprofileOvxu2d"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1603272708401	Marionette	INFO	Listening on port 54343
+1603272708477	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://206.189.237.25/js/chunk-vendors.c880de53.js, line 111: Error: [vee-validate] No such validator 'Email' exists.
+JavaScript error: http://206.189.237.25/js/chunk-vendors.c880de53.js, line 111: Error: [vee-validate] No such validator 'Email' exists.
+JavaScript error: http://206.189.237.25/js/chunk-vendors.c880de53.js, line 111: Error: [vee-validate] No such validator 'Email' exists.
+1603272757261	Marionette	INFO	Stopped listening on port 54343
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

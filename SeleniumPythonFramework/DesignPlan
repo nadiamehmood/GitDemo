@@ -1,0 +1,40 @@
+Selenium Python Framework Design Plan
+Part 1: Pytest Unit Testing Framework
+- install pytest -> pip install pytest -> and check if its installed or not -> pytest --version
+- Naming conventions to follow for Pytest Tests (test_demo1)
+- Running pytest from command line and pycharm (test_demo1)
+- Running selected test files using pytest (test_demo1)
+- Running selected test methods based on matching keywords (test_demo1)
+- Pytest tags mechanism to run tests based on functionality (test_demo1) -> This will useful when u want to run smoke or regressions
+- Failing and skipping tests with Annotations using pytest  (test_demo1)
+- What are fixtures and importance of their hooks in pytest  (test_fixtureDemo)
+- How fixtures can be configured in conftext file for better readability  (conftest)
+- Different scopes of fixtures and their related annotations to setup Pre and Post conditions of the test  (test_fixtureDemo)
+- How Parameterization can be achieved for Tests with multiple sets of data  (test_fixtureData)
+- How to pass command line arguments into pytests
+- Html report generation for pytests execution LINK: https://pypi.org/project/pytest-html/
+  - pip install pytest-html
+  - py.test --html=<filename>.html -s
+Part 2: Understand logging and Html Reports  (test_logging)
+- Debug
+- Info
+- Warning
+- Error
+- Critical
+- Integrating pytest logs into html Reporting  (BaseClass, test_fixtureData) RUN -> py.test -k test_fixtureData.py --html=report.html -s
+Part 3: Implement Selenium Python Framework from Scratch (PageObject DesignPattern)
+- Standards of writing selenium tests in framework
+- Creating browser invocation in Conftest.py
+- Setting up Base Class to hold all common Utilities
+- Inheriting Base Class to all tests to remove Fixture redundant code
+- Passing Command line options to select browser at run time
+- Implementing Page Object mechanism
+- Smarter way of returning page objects from Navigation methods
+- Creating Selenium webdriver custom utilities in Base Class
+- Parameterizing Webdriver tests with multiple data sets
+- Organizing data from separate data files and injecting into fixture at runtime
+- Implementing logging feature to webdriver tests
+- Text Execution Html Reporting
+- Automatic Screenshot Capture on Test failures
+Part 4: Data Driven Framework with excel to Selenium Python Tests
+Part 5: GIT Version Control
