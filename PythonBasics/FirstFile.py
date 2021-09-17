@@ -89,3 +89,10 @@ while it < 16:
         break     # it will break the entire loop
     print(it)
     it = it + 1
+
+
+print("hello word")
+print("hello word")
+print("hello word")
+print("hello word")
+print("hello word")
