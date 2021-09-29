@@ -22,3 +22,8 @@ except Exception as e:
 
 finally:
     print("Clean up all records or cookies by end of the code")
+
+print("hello word")
+print("hello word")
+print("hello word")
+print("hello word")

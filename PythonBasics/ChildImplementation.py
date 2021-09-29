@@ -12,3 +12,8 @@ class ChildImplementation(Calculator):
 
 obj = ChildImplementation()
 print("{} {}".format("Complete value from child class: ", obj.getCompleteData()))
+
+print("hello word")
+print("hello word")
+print("hello word")
+print("hello word")
